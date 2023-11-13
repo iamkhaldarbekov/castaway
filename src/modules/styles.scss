@@ -1,0 +1,87 @@
+.main {
+    padding: 100px 0;
+    .main__info {
+        margin-bottom: 40px;
+        .main__title {
+            font-size: 64px;
+            font-weight: 400;
+            display: inline;
+        }
+        button {
+            float: right;
+        }
+    }
+    .main__episodes {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.section {
+    padding: 100px 0;
+    position: relative;
+    .section__lines {
+        position: absolute;
+        bottom: 74px;
+        left: -35px;
+    }
+    .section__inner {
+        display: flex;
+        .section__info {
+            margin-top: 147px;
+            max-width: 590px;
+            margin-right: 60px;
+            .section__title {
+                font-size: 65px;
+                font-weight: 400;
+                margin-bottom: 28px;
+                letter-spacing: 2.8px;
+            }
+            .section__subtitle {
+                font-size: 22px;
+                opacity: 0.7;
+                line-height: 33px;
+            }
+        }
+    }
+    .section__reviews {
+        margin-top: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.footer {
+    padding: 100px 0;
+    display: flex;
+    .footer__info {
+        width: 447px;
+        height: 222px;
+        margin-right: 16px;
+    }
+    .footer__socials {
+        margin-top: 20px;
+        list-style: none;
+        display: flex;
+        li {
+            margin-right: 10px;
+        }
+    }
+    .footer__links {
+        width: 178px;
+        height: 222px;
+        margin-right: 16px;
+        list-style: none;
+        li {
+            margin-bottom: 10px;
+        }
+        .footer__links-item {
+            color: #fff;
+            text-decoration: none;
+            transition: color 300ms ease;
+            &:hover {
+                color: #118DA8;
+            }
+        }
+    }
+}

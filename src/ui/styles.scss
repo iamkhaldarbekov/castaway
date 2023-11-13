@@ -1,0 +1,30 @@
+.button {
+    background-color: #118DA8;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 300ms ease, color 300ms ease;
+    &:hover {
+        background-color: #fff;
+        color: #118DA8;
+    }
+}
+
+.stars { 
+    display: flex;
+    list-style: none;
+    .star {
+        margin-right: 5px;
+    }
+}
+
+.items { 
+    display: flex;
+    list-style: none;
+    .item {
+        margin-right: 17px;
+    }
+}

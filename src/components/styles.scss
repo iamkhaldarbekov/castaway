@@ -1,0 +1,149 @@
+//HEADER--------------------------------------------------------
+.nav {
+    height: 120px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    .nav__links {
+        display: flex;
+        list-style: none;
+        .item {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 40px;
+            transition: color 300ms ease;
+            &:hover { 
+                color: #118DA8;
+            }
+        }
+        .item--checked {
+            color: #118DA8;
+        }
+    }
+}
+
+.info {
+    display: flex;
+    position: relative;
+    .info__img {
+        margin-top: 40px;
+    }
+    .info__lines {
+        position: absolute;
+        top: 14px;
+        left: -26px;
+    }
+    .info__text {
+        margin-left: 60px;
+        .info__title {
+            font-size: 70px;
+            font-weight: 400;
+            line-height: 88px;
+            margin-top: 300px;
+        }
+        .info__companies {
+            margin-top: 75px;
+            margin-left: 22px;
+            .companies__title {
+                font-size: 15px;
+                margin-bottom: 16px;
+            }
+        }
+    }
+}
+
+//MAIN--------------------------------------------------------
+.card {
+    padding: 40px;
+    background-color: #000;
+    display: flex;
+    border-radius: 32px;
+    margin-bottom: 60px;
+    .card__img {
+        border-radius: 32px;
+        transition: transform 400ms ease;
+        &:hover {
+            transform: rotate(-10deg) scale(1.1);
+        }
+    }
+    .card__info {
+        margin-left: 53px;
+        padding-top: 7.5px;
+        .card__genre {
+            background-color: #191919;
+            padding: 2px 16px;
+            border-radius: 6px;
+        }
+        .card__episode {
+            color: #118DA8;
+            font-size: 17px;
+            margin-top: 48px;
+            margin-bottom: 20px;
+        }
+        .card__title {
+            font-size: 64px;
+            font-weight: 400;
+            line-height: 70px;
+            margin-bottom: 28px;
+        }
+        .card__subtitle {
+            opacity: 0.7;
+            font-size: 22px;
+            line-height: 33px;
+            margin-bottom: 18px;
+        }
+    }
+}
+
+.updates {
+    padding: 60px;
+    margin-top: 200px;
+    background-color: #000;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-between;
+    .updates__info {
+        max-width: 431px;
+        .updates__title {
+            font-size: 72px;
+            font-weight: 400;
+        }
+    }
+    .updates__email {
+        display: flex;
+        flex-direction: column;
+        .updates__email-item {
+            margin-bottom: 20px;
+            background-color: #191919;
+            border: none;
+            border-radius: 6px;
+            padding: 25px 20px;
+            color: #fff;
+            font-size: 24px;
+            width: 482px;
+            &::placeholder {
+                opacity: 0.7;
+                font-size: 24px;
+                color: #fff;
+            }
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+.review {
+    padding: 50px;
+    background-color: #000;
+    border-radius: 32px;
+    max-width: 423px;
+    .review__text {
+        font-size: 36px;
+        margin: 20px 0;
+    }
+    .review__author {
+        font-size: 24px;
+        opacity: 0.7;
+    }
+}
