@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ksh4kh/castaway.git/static/css/main.afe7fda5.css",
+    "main.js": "/ksh4kh/castaway.git/static/js/main.e1ce0aa0.js",
+    "static/media/section.png": "/ksh4kh/castaway.git/static/media/section.af0cd2fb3882fe18a1d1.png",
+    "static/media/header.png": "/ksh4kh/castaway.git/static/media/header.40e445286a2835168f75.png",
+    "static/media/main01.png": "/ksh4kh/castaway.git/static/media/main01.62dcd5fcd617f0c2f37f.png",
+    "static/media/main03.png": "/ksh4kh/castaway.git/static/media/main03.10ebf7f7ec6fde70798e.png",
+    "static/media/main02.png": "/ksh4kh/castaway.git/static/media/main02.a792b95d46c666a55354.png",
+    "static/media/logo.svg": "/ksh4kh/castaway.git/static/media/logo.b55a5b5802521ca4f20469b440e0ff18.svg",
+    "static/media/cloud.svg": "/ksh4kh/castaway.git/static/media/cloud.f8bfba8701c2611035c63ab65ec9357d.svg",
+    "static/media/podcast.svg": "/ksh4kh/castaway.git/static/media/podcast.09ff3237fb2488b6eb374913a1fb6750.svg",
+    "static/media/antenna.svg": "/ksh4kh/castaway.git/static/media/antenna.95878eb9040a3326acad2b8c001452cc.svg",
+    "static/media/lines01.svg": "/ksh4kh/castaway.git/static/media/lines01.ac188ce944d0808b0a64d8efb59cf4b5.svg",
+    "static/media/lines02.svg": "/ksh4kh/castaway.git/static/media/lines02.c6deabddd886f40f6d588c3b76f9422b.svg",
+    "static/media/spotify.svg": "/ksh4kh/castaway.git/static/media/spotify.cc0aab568a402dcc267d5156b470ba2d.svg",
+    "static/media/arrow.svg": "/ksh4kh/castaway.git/static/media/arrow.d7e6c44a1a53c765fcda709e5e566bbe.svg",
+    "static/media/c.svg": "/ksh4kh/castaway.git/static/media/c.d8950ce36fbc211f155759015b15639f.svg",
+    "static/media/instagram.svg": "/ksh4kh/castaway.git/static/media/instagram.ddba0bcd9fbf140e2a83c8cf1563c4c6.svg",
+    "static/media/twitter.svg": "/ksh4kh/castaway.git/static/media/twitter.f1079203b881bed40262ba9eb9b58cc2.svg",
+    "static/media/star.svg": "/ksh4kh/castaway.git/static/media/star.cd69ce716924f47d955c88d3d0d4083f.svg",
+    "static/media/facebook.svg": "/ksh4kh/castaway.git/static/media/facebook.118e2b6f3e12198b38546d27cfea57a6.svg",
+    "index.html": "/ksh4kh/castaway.git/index.html",
+    "main.afe7fda5.css.map": "/ksh4kh/castaway.git/static/css/main.afe7fda5.css.map",
+    "main.e1ce0aa0.js.map": "/ksh4kh/castaway.git/static/js/main.e1ce0aa0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afe7fda5.css",
+    "static/js/main.e1ce0aa0.js"
+  ]
+}
